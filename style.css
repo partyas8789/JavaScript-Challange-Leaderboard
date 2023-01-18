@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.maincontainer{
+    width: 80%;
+    height: 100%;
+    /* border: 2px solid red; */
+    
+}
+.maincontainerupper{
+    width: 100%;
+    height: 15%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maincontainermiddle{
+    width: 100%;
+    height: 20%;
+    /* border: 2px solid black; */
+}
+.maincontainermiddleupper, .maincontainermiddlelower{
+    width: 100%;
+    height: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maincontainermiddleupper{
+    justify-content: space-between;
+}
+.inputdata{
+    width: 19.5%;
+    height: 80%;
+    /* border: 2px solid red; */
+    /* margin-right: 1rem; */
+}
+.colordiv{
+    background-color: #caa9ad;
+}
+.alertt{
+    color: red;
+}
+.maincontainerlower{
+    width: 100%;
+    height: 65%;
+    /* border: 2px solid red; */
+    overflow-y: scroll;
+}
+.row{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    /* border: 2px solid red; */
+    margin-bottom: .3rem;
+    background-color: #caa9ad;
+}
+.button,.score,.countryname,.name{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.button button{
+    width: 13%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid red;
+    border: none;
+    margin-right: .2rem;
+}
+::-webkit-scrollbar {
+    display: none;
+  }
