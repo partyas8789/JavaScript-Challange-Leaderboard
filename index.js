@@ -25,7 +25,7 @@ function add() {
                 <h3 id="index${counter}">${score}</h3>
             </div>
             <div class="button">
-                <button onclick="deleteme(${counter})">de</button>
+                <button onclick="deleteme(${counter})"><i class="fa fa-trash" aria-hidden="true"></i></button>
                 <button onclick="plusme(${counter})" >+5</button>
                 <button onclick="minusme(${counter})" >-5</button>
             </div>
